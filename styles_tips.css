@@ -1,0 +1,72 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Specific Styles for Tips & Tricks Page */
+.tips-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.paragraph {
+    background-color: rgb(255, 254, 254);
+    color: black;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    padding:0 50px 0 50px;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 20px;
+}
+.flex-container p{
+    width: 700px;
+    padding:0 50px 0 50px;
+}
+.flex-container img{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+}

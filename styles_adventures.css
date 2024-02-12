@@ -1,0 +1,72 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* Specific Styles for Adventure Stories Page*/
+.adventures-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.adventures-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.story {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+}
+
+.story img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+h1{
+    font-size :3em;
+}
+.image_container{
+    min-height:400px;
+}
+
+/* Add more styles as needed for additional stories */
