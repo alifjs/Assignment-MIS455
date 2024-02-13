@@ -71,8 +71,12 @@ p {
     background-color: rgb(255, 254, 254);
     color: black;
     text-align: left;
-    font-family: 'Open Sans', sans-serif;
     padding:0 50px 0 50px;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1.3em;
 }
 
 .flex-container {
